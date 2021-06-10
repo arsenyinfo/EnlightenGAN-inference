@@ -33,7 +33,6 @@ setup(
     python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=find_packages(exclude=("tests",)),
-    package_data={'enlighten_inference': ['*.onnx']},
     install_requires=load_requirements("requirements.txt"),
     include_package_data=True,
     classifiers=[
