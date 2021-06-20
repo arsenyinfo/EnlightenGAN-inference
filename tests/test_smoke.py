@@ -11,5 +11,3 @@ def test_smoke():
 
     assert img.shape == processed.shape
     assert img.mean() < processed.mean()
-
-    cv2.imwrite('kozel.jpg', processed)
